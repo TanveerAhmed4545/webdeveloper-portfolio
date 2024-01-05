@@ -1,0 +1,373 @@
+/* universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_color {
+    color: #FD6E0A;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 0px;
+}
+
+.nav_title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn_primary {
+
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 15px 35px;
+    outline: none;
+    border: none;
+
+}
+
+.sec {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    ;
+}
+
+/* header related styles */
+
+.header {
+    background: #FFF8F3;
+    height: 100vh;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: 48%;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile_pic {
+    width: 400px;
+
+}
+
+.banner_content {
+    padding-top: 60px;
+}
+
+.banner_greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner_title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner_content>p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+    /* 166.667% */
+}
+
+/* main section styles */
+
+/* about section styles */
+
+.about {
+    margin: 100px 100px;
+    /* height: 80vh; */
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 100px 130px 70px;
+}
+
+.section_title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.section_des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.info_title {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info_description {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* main */
+main {
+    background-color: #FFF;
+}
+
+/* do section */
+
+.do_section {
+    margin: 0px 100px;
+}
+
+.do_p {
+    padding: 0px 70px;
+}
+
+/* skills_container */
+
+.skills_container {
+    display: flex;
+
+    align-items: center;
+    margin: 30px 0px 70px 0px;
+    gap: 24px;
+}
+
+.skill {
+    width: 250px;
+    height: 377px;
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill>img {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+}
+
+.skill_title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.skill_des {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* resume section styles */
+
+.resume {
+    padding-bottom: 50px;
+}
+
+.resume_colum_title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.resume_container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.resume_colum {
+    margin-right: 30px;
+}
+
+.resume_items {
+    padding: 20px 20px 20px 0px;
+}
+
+.resume_item_title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.resume_item_inst {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.resume_item_des {
+
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+.skills_btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    padding: 100px 100px;
+    margin-top: 30px;
+}
+
+.footer_colum {
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+
+.footer_title,
+.footer_p {
+    text-align: left;
+}
+
+.social_links {
+    padding: 30px 0px;
+}
+
+.social_links img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+#textarea{
+    height: 180px;
+    resize: none;
+}
